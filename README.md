@@ -1,6 +1,6 @@
 # Personal website of Okko Makkonen
 
-Personal website at [okkomakkonen.fi](okkomakkonen.fi).
+Personal website at [okkomakkonen.fi](https://okkomakkonen.fi).
 
 ## TODO
 
