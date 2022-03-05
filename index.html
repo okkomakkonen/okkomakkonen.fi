@@ -12,7 +12,6 @@
             max-width: 650px;
             line-height: 1.6;
             font-size: 18px;
-            color: #454545;
             padding: 0 10px;
         }
 
@@ -32,6 +31,20 @@
 
         a:hover {
             color: #7FDBFF;
+        }
+
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #FFFFFF;
+                color: #454545;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #111111;
+                color: #DDDDDD;
+            }
         }
     </style>
 </head>
@@ -70,7 +83,7 @@
     </ol>
     <hr>
     <p>
-        Updated on March 4, 2022.
+        Updated on March 5, 2022.
     </p>
     <p>
         The design of this website is inspired by <a href="http://bettermotherfuckingwebsite.com/">this</a>.
