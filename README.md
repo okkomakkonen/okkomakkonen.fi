@@ -5,5 +5,3 @@ Personal website at [okkomakkonen.fi](https://okkomakkonen.fi) hosted on GitHub 
 ## TODO
 
 - New font
-- Link colors
-- Dark theme
