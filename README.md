@@ -4,4 +4,4 @@ Personal website at [okkomakkonen.fi](https://okkomakkonen.fi) hosted on GitHub 
 
 ## TODO
 
-- New font
+- Change Google Fonts to locally hosted font
