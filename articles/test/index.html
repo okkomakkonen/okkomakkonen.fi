@@ -7,65 +7,14 @@
     <title>Test article</title>
     <meta name="description" content="Something something something...">
     <!-- MathJax -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>
-        window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                macros: {
-                    diag: "\\mathrm{diag}",
-                }
-            }
-        };
-    </script>
+    <script async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="/script.js"></script>
     <!-- font from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <!-- colors from https://clrs.cc/ -->
-    <style>
-        body {
-            margin: 40px auto;
-            max-width: 650px;
-            line-height: 1.6;
-            font-size: 18px;
-            padding: 0 10px;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        h1,
-        h2,
-        h3 {
-            line-height: 1.2
-        }
-
-        a:link {
-            color: #0074D9;
-        }
-
-        a:visited {
-            color: #B10DC9;
-        }
-
-        a:hover {
-            color: #7FDBFF;
-        }
-
-        @media (prefers-color-scheme: light) {
-            body {
-                background-color: #FFFFFF;
-                color: #454545;
-            }
-        }
-
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #111111;
-                color: #DDDDDD;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -80,7 +29,9 @@
     </header>
     <hr>
     <section>
+        <noscript>Please enable JavaScript to show the math symbols</noscript>
         <p>
+            $\newcommand{\foo}{\mathrm{foo}}$
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Pellentesque nec nam aliquam sem et tortor consequat. Euismod elementum nisi quis eleifend quam. Leo integer
             malesuada nunc vel risus commodo. Diam maecenas ultricies mi eget mauris pharetra. Suscipit tellus mauris a diam
@@ -91,7 +42,7 @@
                 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
             $$
             
-            Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Diam maecenas ultricies mi eget mauris pharetra et
+            Furthermore, $\foo(x) = 1$. Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Diam maecenas ultricies mi eget mauris pharetra et
             ultrices. Proin gravida hendrerit lectus a. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum.
             Vulputate eu scelerisque felis imperdiet proin fermentum leo. Sed arcu non odio euismod lacinia at quis. In egestas erat
             imperdiet sed euismod nisi porta. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Congue quisque
