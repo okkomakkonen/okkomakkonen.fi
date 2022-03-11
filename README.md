@@ -4,4 +4,8 @@ Personal website at [okkomakkonen.fi](https://okkomakkonen.fi) hosted on GitHub 
 
 ## TODO
 
-- Change Google Fonts to locally hosted font
+- Change Google Fonts to locally hosted font or another cloud hoster
+- Custom 404 page
+- Erdös number
+- Articles page
+  - How is website hosted
