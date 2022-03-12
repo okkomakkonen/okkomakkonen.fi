@@ -33,5 +33,5 @@ jobs:
           git add .
           git commit -m "Minify files"
           git fetch
-          git push -u origin gh-pages
+          git push -u origin gh-pages -f
 
