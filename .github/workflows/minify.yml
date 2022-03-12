@@ -32,6 +32,5 @@ jobs:
           git config user.email "okko@okkomakkonen.fi"
           git add .
           git commit -m "Minify files"
-          git fetch
           git push -u origin gh-pages -f
 
