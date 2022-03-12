@@ -1,0 +1,36 @@
+/* font from https://brick.im  */
+/* colors from https://clrs.cc/  */
+
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #FFFFFF;
+    color: #454545;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}
+
+a:link, a:visited {
+    color: #0074D9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7FDBFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111111;
+        color: #DDDDDD;
+    }
+}
