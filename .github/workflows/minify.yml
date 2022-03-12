@@ -20,21 +20,14 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Install minify from apt
       - name: Install minify
         run: sudo apt install minify
-
-      # Minify the files
-      - name: Run a multi-line script
+      - name: Minify files
         run: minify -r . -o .
-      
-      # Push to gh-pages branch
       - name: Push to gh-pages branch
         run: |
-          git checkout -b gh-pages
+          git checkout gh-pages
           git config user.name "Okko Makkonen"
           git config user.email "okko@okkomakkonen.fi"
           git add .
