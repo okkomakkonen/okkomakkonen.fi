@@ -13,11 +13,11 @@ body {
     color: #454545;
 }
 
-header {
-    padding: 0 10px;
+#profile-photo {
+    width: 320px;
 }
 
-section {
+.column {
     padding: 0 10px;
 }
 
@@ -46,13 +46,20 @@ a:hover {
 }
 
 @media (max-width: 900px) {
+    body {
+        max-width: 650px;
+    }
+
     .flex-container {
         flex-direction: column;
     }
-    header {
-        padding: 0;
+
+    #profile-photo {
+        width: calc(100vw - 20px);
+        max-width: 400px;
     }
-    section {
+
+    .column {
         padding: 0;
     }
 }
