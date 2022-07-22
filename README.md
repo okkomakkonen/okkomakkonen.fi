@@ -10,7 +10,6 @@ This website is a static website hosted on GitHub pages on the `gh-pages` branch
 
 Some things I intend to put on this website.
 
-- Custom favicon
 - Erdős number
 - Articles page
   - Custom 404 page
