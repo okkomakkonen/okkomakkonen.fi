@@ -10,6 +10,7 @@ This website is a static website hosted on GitHub pages on the `gh-pages` branch
 
 Some things I intend to put on this website.
 
+- Custom favicon
 - Erdős number
 - Articles page
   - Custom 404 page
@@ -22,6 +23,7 @@ Some things I intend to put on this website.
 
 These websites insipired this website.
 
-- [smartquotesforsmartpeople.com](https://smartquotesforsmartpeople.com/)
-- [clrs.cc](https://clrs.cc/)
-- [perfectmotherfuckingwebsite.com](https://perfectmotherfuckingwebsite.com/)
+- [perfectmotherfuckingwebsite.com](https://perfectmotherfuckingwebsite.com/) is a great example of a simple website
+- [smartquotesforsmartpeople.com](https://smartquotesforsmartpeople.com/) is a guide for using quotes correctly
+- [clrs.cc](https://clrs.cc/) provides better default colors for websites
+- [realfavicongenerator.net](https://realfavicongenerator.net/) is a great favicon generator
