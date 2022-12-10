@@ -19,6 +19,7 @@ body {
 
 .column {
     padding: 0 10px;
+    min-width: 320px;
 }
 
 strong {
@@ -40,9 +41,21 @@ a:hover {
     color: #7FDBFF;
 }
 
-.flex-container {
+.columns {
     display: flex;
     flex-direction: row;
+}
+
+.no-javascript {
+    color: #FF4136;
+}
+
+.abstract {
+    font-size: medium;
+}
+
+.centered {
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -50,7 +63,7 @@ a:hover {
         max-width: 650px;
     }
 
-    .flex-container {
+    .columns {
         flex-direction: column;
     }
 

@@ -24,13 +24,10 @@ python -m http.server --bind localhost
 
 Some things I intend to put on this website.
 
-- Erdős number
-- Articles page
-  - Custom 404 page
-  - KaTeX or MatJax
 - Articles
-  - How is website hosted
-  - About my research
+  - Report on my master's thesis
+- Robots.txt
+  - Not indexing 404.html
 
 ## Resources
 
