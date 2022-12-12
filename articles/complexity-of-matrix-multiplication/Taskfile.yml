@@ -1,0 +1,12 @@
+version: '3'
+
+tasks:
+  build-html:
+    cmds:
+      - pandoc main.tex --mathjax --output main.html --bibliography=bib.bib -C
+  build-pdf:
+    cmds:
+      - latexmk -pdf main.tex
+  clean:
+    cmds:
+      - latexmk -c

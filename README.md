@@ -20,18 +20,6 @@ or directly
 python -m http.server --bind localhost
 ```
 
-## ToDo
-
-Some things I intend to put on this website.
-
-- Erdős number
-- Articles page
-  - Custom 404 page
-  - KaTeX or MatJax
-- Articles
-  - How is website hosted
-  - About my research
-
 ## Resources
 
 These websites insipired this website.

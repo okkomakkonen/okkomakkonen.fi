@@ -1,0 +1,67 @@
+\begin{thebibliography}{}
+
+\bibitem[Bini et~al., 1979]{bini1979n2}
+Bini, D., Capovani, M., Lotti, G., and Romani, F. (1979).
+\newblock {$O(n^{2.7799})$} complexity for matrix multiplication. {Strassen}
+  algorithm is not optimal.
+\newblock {\em Inform. Process. Lett}, 8(5):234--235.
+
+\bibitem[Bl{\"a}ser, 1999]{blaeser1999lower}
+Bl{\"a}ser, M. (1999).
+\newblock A $5/2n^2$-lower bound for the rank of $n \times n$-matrix
+  multiplication over arbitrary fields.
+\newblock In {\em 40th Annual Symposium on Foundations of Computer Science
+  (Cat. No. 99CB37039)}, pages 45--50. IEEE.
+
+\bibitem[Bl{\"a}ser, 2013]{blaeser2013fast}
+Bl{\"a}ser, M. (2013).
+\newblock Fast matrix multiplication.
+\newblock {\em Theory of Computing}, pages 1--60.
+
+\bibitem[Burichenko, 2014]{burichenko2014symmetries}
+Burichenko, V.~P. (2014).
+\newblock On symmetries of the {Strassen} algorithm.
+\newblock {\em arXiv preprint arXiv:1408.6273}.
+
+\bibitem[Duan et~al., 2022]{duan2022faster}
+Duan, R., Wu, H., and Zhou, R. (2022).
+\newblock Faster matrix multiplication via asymmetric hashing.
+\newblock {\em arXiv preprint arXiv:2210.10173}.
+
+\bibitem[Grochow and Moore, 2017]{grochow2017designing}
+Grochow, J.~A. and Moore, C. (2017).
+\newblock Designing {Strassen's} algorithm.
+\newblock {\em arXiv preprint arXiv:1708.09398}.
+
+\bibitem[Ikenmeyer and Lysikov, 2019]{ikenmeyer2019strassen}
+Ikenmeyer, C. and Lysikov, V. (2019).
+\newblock Strassen’s $2 \times 2$ matrix multiplication algorithm: a
+  conceptual perspective.
+\newblock {\em Annali dell' Università di Ferrara}, 65(2):241--248.
+
+\bibitem[Landsberg, 2008]{landsberg2008geometry}
+Landsberg, J. (2008).
+\newblock Geometry and the complexity of matrix multiplication.
+\newblock {\em Bulletin of the American Mathematical Society}, 45(2):247--284.
+
+\bibitem[Pan, 1984]{pan1984how}
+Pan, V. (1984).
+\newblock How can we speed up matrix multiplication?
+\newblock {\em SIAM review}, 26(3):393--415.
+
+\bibitem[Stothers, 2010]{stothers2010complexity}
+Stothers, A.~J. (2010).
+\newblock {\em On the complexity of matrix multiplication}.
+\newblock PhD thesis, The University of Edinburgh.
+
+\bibitem[Strassen, 1969]{strassen1969gaussian}
+Strassen, V. (1969).
+\newblock Gaussian elimination is not optimal.
+\newblock {\em Numerische mathematik}, 13(4):354--356.
+
+\bibitem[Winograd, 1971]{winograd1971multiplication}
+Winograd, S. (1971).
+\newblock On multiplication of $2 \times 2$ matrices.
+\newblock {\em Linear algebra and its applications}, 4(4):381--388.
+
+\end{thebibliography}

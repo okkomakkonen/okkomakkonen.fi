@@ -16,6 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Remove unnecessary files
+        run: rm -rf Taskfile.yml README.md articles/.template
       - name: Install minify
         run: sudo apt install minify
       - name: Minify files
