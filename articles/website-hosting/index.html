@@ -10,7 +10,7 @@
 
     <!-- Load font -->
     <link rel="stylesheet" href="https://brick.freetls.fastly.net/Roboto:300">
-    
+
     <!-- Load stylesheet -->
     <link rel="stylesheet" href="/style.css">
 
@@ -33,20 +33,24 @@
             Website Hosting
         </h1>
         <strong>
-            Written on December 7, 2022
+            December 12, 2022
         </strong>
         <p class="abstract">
             <strong>Abstract.</strong>
             My website started in March 2022, since I wanted a public place to showcase my research. There are countless
-            ways to host a website nowadays, but here is the system I decided on.
+            ways to host a website nowadays, but here is the minimal system I decided on. The site is hosted for free on
+            GitHub Pages.
         </p>
     </header>
     <p>
-        The intention of this website was to keep it minimal. I do not want to use some heavy frameworks to build a
-        simple website, since I want to be able to maintain this myself even in the future. Additionally, I wanted to
-        keep this lightweight and cheap. I ended up with the following choice. This website consists of handmade HTML
-        and CSS, which are managed on git and hosted <a href="https://github.com/okkomakkonen/okkomakkonen.fi">on
-            GitHub</a>. The static website is hosted on GitHub pages.
+        The intention of this website was to keep it minimal, following the inspiration of <a
+            href="https://perfectmotherfuckingwebsite.com/">this site</a>. I started with just the <a href="/">main
+            page</a>, so I did not want to use some heavy frameworks to build a simple website, since I want to be able
+        to maintain this myself even in the future. Additionally, I wanted to keep this lightweight and cheap. Websites
+        nowadays are large and complicated, but they do not need to be. I ended up with the following choice. This
+        website consists of handmade HTML and CSS, which are managed on git and hosted <a
+            href="https://github.com/okkomakkonen/okkomakkonen.fi">on GitHub</a>. The static website is hosted on GitHub
+        Pages.
     </p>
 
     <p>
@@ -56,18 +60,25 @@
         everything is right there. I can tweak every aspect of the site without worrying about reading the documentation
         of the static site generator. Of course some aspects of designing the website are more difficult by hand, but I
         like that it forces me to design a simple site. I can also guarantee that the file sizes are small. For example,
-        the main page is just over 2kB after minification without the image.
+        the main page is just over 2kB after minification (without the image).
     </p>
 
     <p>
         As I mentioned, the source code of this website is publically available on GitHub. Git is clearly the best way
         to store source code, so it was an obvious choice for me, since I wanted version control and cloud backups of my
         progress. I also utilize GitHub actions to automatically minify the source files on each push. The minified
-        files are stored on the gh-pages branch which is used to deploy the site using GitHub pages.
+        files are stored on the gh-pages branch which is used to deploy the site using <a
+            href="https://pages.github.com/">GitHub Pages</a>. Setting up the GitHub Pages was very simple and I even
+        got my own domain name running in a matter of minutes. Even setting up HTTPS was easy.
     </p>
 
     <p>
-        For local development I use the simple webserver in python, which I deploy using Task.
+        For local development I use the simple webserver in python, which I deploy using <a
+            href="https://taskfile.dev/">Task</a> (I can highly recommend this as a substitute for Make). Additionally,
+        I used <a href="https://realfavicongenerator.net/">RealFaviconGenerator</a> to generate the <a
+            href="https://en.wikipedia.org/wiki/Favicon">favicon</a> for my site. I try to follow the best practices for
+        webdesign and typography whenever possible, so if you have any suggestions that would improve my site, please
+        let me know.
     </p>
 </body>
 
