@@ -20,15 +20,6 @@ or directly
 python -m http.server --bind localhost
 ```
 
-## ToDo
-
-Some things I intend to put on this website.
-
-- Articles
-  - Report on my master's thesis
-- Robots.txt
-  - Not indexing 404.html
-
 ## Resources
 
 These websites insipired this website.
