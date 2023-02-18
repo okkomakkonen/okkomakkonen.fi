@@ -32,7 +32,8 @@ h3 {
     line-height: 1.2
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #0074D9;
     text-decoration: none;
 }
@@ -56,6 +57,26 @@ a:hover {
 
 .centered {
     text-align: center;
+}
+
+@counter-style journal {
+    system: extends numeric;
+    prefix: '[J';
+    suffix: '] ';
+}
+
+@counter-style conference {
+    system: extends numeric;
+    prefix: '[C';
+    suffix: '] ';
+}
+
+#journal-articles {
+    list-style-type: journal;
+}
+
+#conference-proceedings {
+    list-style-type: conference;
 }
 
 @media (max-width: 900px) {
