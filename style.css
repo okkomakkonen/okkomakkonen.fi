@@ -59,24 +59,34 @@ a:hover {
     text-align: center;
 }
 
-@counter-style journal {
+@counter-style journal-counter {
     system: extends numeric;
     prefix: '[J';
     suffix: '] ';
 }
 
-@counter-style conference {
+@counter-style conference-counter {
     system: extends numeric;
     prefix: '[C';
     suffix: '] ';
 }
 
+@counter-style preprint-counter {
+    system: extends numeric;
+    prefix: '[';
+    suffix: '] ';
+}
+
 #journal-articles {
-    list-style-type: journal;
+    list-style-type: journal-counter;
 }
 
 #conference-proceedings {
-    list-style-type: conference;
+    list-style-type: conference-counter;
+}
+
+#preprints {
+    list-style-type: preprint-counter;
 }
 
 @media (max-width: 900px) {
