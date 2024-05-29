@@ -59,6 +59,11 @@ a:hover {
     text-align: center;
 }
 
+.typewriter {
+  font-family: monospace;
+  font-size: 16px;
+}
+
 @counter-style journal-counter {
     system: extends numeric;
     prefix: '[J';
