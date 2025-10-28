@@ -1,6 +1,0 @@
-version: '3'
-
-tasks:
-  serve:
-    cmds:
-      - python -m http.server --bind 0.0.0.0
